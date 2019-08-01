@@ -44,7 +44,16 @@
     "noImageResize": "",
     "siteUrl": "undefined",
     "gdpr": "",
-    "сanonical-url": ""
+    "сanonical-url": "",
+    "customCookies": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience./a>."
+    }
   },
   "pages": {
     "index.html": {
