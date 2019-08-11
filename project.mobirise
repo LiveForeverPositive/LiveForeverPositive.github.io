@@ -1,13 +1,13 @@
 {
   "settings": {
-    "name": "OFFICIAL website *Emergency Copy*",
+    "name": "OFFICIAL website ",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
       "styling": {
-        "primaryColor": "#4ea2e3",
-        "secondaryColor": "#4addff",
+        "primaryColor": "#000000",
+        "secondaryColor": "#0dd1ff",
         "successColor": "#0dcd7b",
         "infoColor": "#8282e7",
         "warningColor": "#767676",
@@ -25,7 +25,7 @@
         "display4Size": 0.9,
         "isRoundedButtons": true,
         "isScrollToTopButton": true,
-        "arrowColor": "#4ea2e3"
+        "arrowColor": "#0dd1ff"
       },
       "additionalSetColors": [
         "#ff0000"
