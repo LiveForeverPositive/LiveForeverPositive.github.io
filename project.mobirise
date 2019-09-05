@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Official Website",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5035,7 +5035,7 @@
         {
           "_params": {
             "modalName": "Buy-Now",
-            "modalSize": "large",
+            "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "Purchase Item",
             "modalBody": "<iframe allowtransparency=\"true\" src=\"https://www.formpl.us/form/481146197\" frameborder=\"0\" style=\"width:100%; height:600px; border:none;\" scrolling=\"yes\"></iframe>",
@@ -5062,7 +5062,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-15",
-          "modalWindow": "<div class=\"modal fade\" id=\"Buy-Now\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Buy-NowLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Buy-NowLabel\">Purchase Item</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Buy-Now_body\"><iframe allowtransparency=\"true\" src=\"https://www.formpl.us/form/481146197\" frameborder=\"0\" style=\"width:100%; height:600px; border:none;\" scrolling=\"yes\"></iframe></div><div class=\"modal-footer\"></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Buy-Now\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Buy-Now_body\" ).html();    $( \"#Buy-Now_body\" ).empty();    $( \"#Buy-Now_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Buy-Now\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Buy-NowLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Buy-NowLabel\">Purchase Item</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Buy-Now_body\"><iframe allowtransparency=\"true\" src=\"https://www.formpl.us/form/481146197\" frameborder=\"0\" style=\"width:100%; height:600px; border:none;\" scrolling=\"yes\"></iframe></div><div class=\"modal-footer\"></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Buy-Now\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Buy-Now_body\" ).html();    $( \"#Buy-Now_body\" ).empty();    $( \"#Buy-Now_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
