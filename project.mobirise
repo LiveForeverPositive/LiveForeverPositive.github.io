@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Official Website",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -4883,7 +4883,7 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <select title=\"Type\" name=\"type\">\n         <option value=\"triangles\" selected>Triangles</option>\n         <option value=\"halfcircle\">Halfcircle</option>\n         <option value=\"multitriangles\">Multitriangles</option>        </select>\n        <input type=\"color\" title=\"Background Color Top\" name=\"bgtop\" value=\"#efefef\">        <input type=\"color\" title=\"Background Color Bottom\" name=\"bgbottom\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"divider-top divider-triangles\" mbr-if=\"type == 'triangles'\"></div>    <div class=\"divider-top divider-halfcircle\" mbr-if=\"type == 'halfcircle'\"></div>    <div class=\"divider-top divider-multitriangles\" mbr-if=\"type == 'multitriangles'\"></div>\n    <div class=\"divider-bottom\"></div>\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <select title=\"Type\" name=\"type\">\n         <option value=\"triangles\" selected>Triangles</option>\n         <option value=\"halfcircle\">Halfcircle</option>\n         <option value=\"multitriangles\">Multitriangles</option>        </select>\n        <input type=\"color\" title=\"Background Color Top\" name=\"bgtop\" value=\"#000000\">        <input type=\"color\" title=\"Background Color Bottom\" name=\"bgbottom\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"divider-top divider-triangles\" mbr-if=\"type == 'triangles'\"></div>    <div class=\"divider-top divider-halfcircle\" mbr-if=\"type == 'halfcircle'\"></div>    <div class=\"divider-top divider-multitriangles\" mbr-if=\"type == 'multitriangles'\"></div>\n    <div class=\"divider-bottom\"></div>\n</section>",
           "_cid": "o8wKkCCdlx",
           "_anchor": "design-block-o8wKkCCdlx",
           "_protectedParams": [],

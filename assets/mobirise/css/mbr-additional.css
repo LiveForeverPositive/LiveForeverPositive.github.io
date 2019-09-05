@@ -5301,12 +5301,12 @@ body {
 .cid-o8wKkCCdlx .divider-top {
   position: relative;
   padding: 2.5em;
-  background: #efefef;
+  background: #000000;
 }
 .cid-o8wKkCCdlx .divider-bottom {
   position: relative;
   padding: 2.5em;
-  background: #000000;
+  background: #efefef;
 }
 .cid-o8wKkCCdlx .divider-top::before,
 .cid-o8wKkCCdlx .divider-bottom::before,
@@ -5355,7 +5355,7 @@ body {
   bottom: -25px;
   z-index: 10;
   background: inherit;
-  box-shadow: -50px 50px 0 #efefef, 50px -50px 0 #efefef;
+  box-shadow: -50px 50px 0 #000000, 50px -50px 0 #000000;
 }
 .cid-rB9zzDfU4Z {
   padding-top: 90px;
