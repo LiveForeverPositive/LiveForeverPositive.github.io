@@ -1840,6 +1840,24 @@ body {
     text-align: center;
   }
 }
+.cid-rC1g2yjK8u {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+@media (min-width: 992px) {
+  .cid-rC1g2yjK8u .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rC1g2yjK8u .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rC1g2yjK8u .mbr-text {
+  color: #ffffff;
+}
 .cid-rB9dgI1t0C {
   padding-top: 0px;
   padding-bottom: 60px;
