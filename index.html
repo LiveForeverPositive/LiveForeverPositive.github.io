@@ -74,7 +74,7 @@
     </nav>
 </section>
 
-<section class="mbr-section mbr-section--no-padding" id="custom-html-19" data-rv-view="2"></section>
+<section class="mbr-section mbr-section--no-padding" id="custom-html-19" data-rv-view="453"></section>
 
 <section class="header3 cid-rB9SiotKOA mbr-parallax-background" id="header3-1a">
 
@@ -105,45 +105,125 @@
 
 </section>
 
-<section class="mbr-section content6 cid-rC1g2yjK8u" id="content6-1c">
-    
-     
-    
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-12 col-md-8">
-                <div class="media-container-row">
-                    <div class="mbr-figure" style="width: 125%;">
-                      <img src="assets/images/new-show-copy-526x302.png" alt="" title="">  
-                    </div>
-                    <div class="media-content">
-                        <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7"><strong>New Show!</strong><br>Forever Positive is expanding our services onto Yotube. We still do podcast! However, the youtube version is the same as the podcast, just a watchable show. We still include music breaks, and many more new features. Shows will last the same amount of time as podcasts do. The show will be posted <em>AFTER </em>the original podcast is posted.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<section class="mbr-section" id="witsec-modal-window-block-1k" data-rv-view="598">
 
-<section class="countdown1 cid-rC1k8XKVrn" id="countdown1-1d">
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="birthday" tabindex="-1" role="dialog" aria-labelledby="birthdayLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="birthdayLabel">HAPPY BIRTHDAY!</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="birthday_body"> <figure class="mbr-figure">
+            <div class="image-block">
+                <img src="assets/images/happy-birthday-raechel-600x200.png" width="1400" alt="" title="">
+                <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+                    <div class="container pb-5 mbr-white align-center mbr-fonts-style">
+                        Create awesome websites!
+                    </div></figcaption></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">X</a></div></div>    </figure></div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#birthday").on("hidden.bs.modal", function () {    var html = $( "#birthday_body" ).html();    $( "#birthday_body" ).empty();    $( "#birthday_body" ).append(html);  })});</script></div></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("birthday_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("birthday_viewed", true, 3600);
+      OpenModal("birthday");
+    } , 1000);
+  }
+});
+</script>
+
+<section class="testimonials4 cid-rFFlXUG1W3" id="testimonials4-1n">
+
+  
+
+  <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(15, 118, 153);">
+  </div>
+  <div class="container">
+    <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2">&nbsp;🎀  𝐵𝒾𝓇𝓉𝒽𝒹𝒶𝓎 𝐹𝓇♡𝓂 𝒰𝓈:  🎀</h2>
     
-    
-    
-    <div class="container ">
-        
-        
-        
-    </div>
-    <div class="container countdown-cont align-center">
-        <div class="daysCountdown" title="Days"></div>
-        <div class="hoursCountdown" title="Hours"></div> 
-        <div class="minutesCountdown" title="Minutes"></div> 
-        <div class="secondsCountdown" title="Seconds"></div>
-        <div class="countdown pt-5 mt-2" data-due-date="2019/10/04"> 
+    <div class="col-md-10 testimonials-container"> 
+      
+
+      
+    <div class="testimonials-item">
+        <div class="user row">
+          
+          <div class="testimonials-caption">
+            <div class="user_text ">
+              <p class="mbr-fonts-style  display-7"><em>Happy Birthday! :)</em></p>
+            </div>
+            <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><a href="https://www.instagram.com/kaye.crxft/" target="_blank">Kaylee :)&nbsp;</a></div>
+            
+          </div>
         </div>
-    </div>
+      </div><div class="testimonials-item">
+        <div class="user row">
+          
+          <div class="testimonials-caption">
+            <div class="user_text">
+              <p class="mbr-fonts-style  display-7"><em>Happy Birthday</em></p>
+            </div>
+            <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><a href="https://www.instagram.com/allyrosinski_/" target="_blank">
+                 Ally R.</a></div>
+            
+          </div>
+        </div>
+      </div><div class="testimonials-item">
+        <div class="user row">
+          
+          <div class="testimonials-caption">
+            <div class="user_text">
+              <p class="mbr-fonts-style  display-7"><em>Happy Birthday, Hope you enjoy this little surprise, my favorite podcast partner :)</em></p>
+            </div>
+            <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><a href="https://www.instagram.com/anthonylakey/" target="_blank">
+                 Anthony L.</a></div>
+            
+          </div>
+        </div>
+      </div></div>
+  </div>
 </section>
 
 <section class="tabs3 cid-rB9dgI1t0C" id="tabs3-1b">
@@ -301,28 +381,6 @@
     </div>
 </section>
 
-<section class="header1 cid-rAim4JHSUw" data-bg-video="https://www.youtube.com/watch?v=6vzvGBIWi3E" id="header16-t">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(35, 35, 35);">
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-10 align-center">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Special Guest For September: Ally R.</h1>
-              
-                
-                
-                <div class="mbr-section-btn"><a class="btn btn-md btn-white display-4" href="https://www.instagram.com/ally.on_.youtube/" target="_blank"><span class="socicon socicon-instagram mbr-iconfont mbr-iconfont-btn"></span></a></div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
 <section class="mbr-section form3 cid-rzVSd3e2ia" id="form3-4">
 
     
@@ -340,7 +398,7 @@
         <div class="row py-2 justify-content-center">
             <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Forever Positive"><input type="hidden" name="email" data-form-email="true" value="e21Ugk8Nn8FC5xAq+dQLYUT+z3uXYb9Ve4FBUjWaWwx7GVAoUl4uVus9X36IfX2vKBCWRmXcz5cF9D4hZ5Y4Lo+ULrmiUOrEGla2FF0EekzAFqd0Hlqrq1Y8WQWkiSGM">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Forever Positive"><input type="hidden" name="email" data-form-email="true" value="BBnaGG4Mcf+3uQLvW+EJ7traZj5rHVhyTfqaQ0Ks5FnqtDlX9yhBEPRaFY52YSyFfWzbDhWBoHk4vTIwsFwtwhQLwoVU2iC9V5ZG8ZK30PVnwsOMfKXEEtTEIQl+gd+y">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank You.</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -423,10 +481,7 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/countdown/jquery.countdown.min.js"></script>
   <script src="assets/mbr-tabs/mbr-tabs.js"></script>
-  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
