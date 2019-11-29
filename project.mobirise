@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Official Website (New)",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -553,38 +553,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Thanksgiving",
-            "modalSize": "large",
-            "modalHeader": true,
-            "modalTitle": "",
-            "modalBody": "<div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">𝓗𝓪𝓹𝓹𝔂 𝓣𝓱𝓪𝓷𝓴𝓼𝓰𝓲𝓿𝓲𝓷𝓰! 🦃🍁🥧</h1>",
-            "modalBodyHTML": true,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Thank You! (Close)",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Thanksgiving\">Preview Thanksgiving</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Thanksgiving-howtouse\">How to use Thanksgiving</a>\n</div>\n<div class=\"modal fade\" id=\"Thanksgiving-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Thanksgiving-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Thanksgiving-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Thanksgiving')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "<div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">𝓗𝓪𝓹𝓹𝔂 𝓣𝓱𝓪𝓷𝓴𝓼𝓰𝓲𝓿𝓲𝓷𝓰! 🦃🍁🥧</h1>",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-1j",
-          "modalWindow": "<div class=\"modal fade\" id=\"Thanksgiving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ThanksgivingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ThanksgivingLabel\"></h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Thanksgiving_body\"><div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">𝓗𝓪𝓹𝓹𝔂 𝓣𝓱𝓪𝓷𝓴𝓼𝓰𝓲𝓿𝓲𝓷𝓰! 🦃🍁🥧</h1></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Thank You! (Close)</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Thanksgiving\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Thanksgiving_body\" ).html();    $( \"#Thanksgiving_body\" ).empty();    $( \"#Thanksgiving_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
