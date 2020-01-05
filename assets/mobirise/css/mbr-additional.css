@@ -727,43 +727,36 @@ P {
 }
 }
 
-.cid-rMG56WZ57e {
+.cid-rMG5mNVo1J {
 @fullScreen: true;
 @paddingTop: 6;
 @paddingBottom: 6;
 @showTitle: true;
 @showSubTitle: true;
-@showText: true;
+@showText: false;
 @showButtons: true;
-@uname__12: "file:///C:/Users/react/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-01-04_231457/assets/images/background4.jpg";
+@uname__12: "../../app/themes/mobirise4/components/header16/../_images/background4.jpg";
 @uname__13: true;
-@uname__14: #cccccc;
-@bg-value: #cccccc;
+@uname__14: #f7ed4a;
+@bg-value: #f7ed4a;
 @bg-type: "color";
-@bg-color-value: #cccccc;
+@bg-color-value: #f7ed4a;
 @bg-parallax: false;
-@color2: #232323;
 @overlay: true;
 @overlayColor: #232323;
-@overlayOpacity: 0.5;
+@overlayOpacity: 0.6;
 
 & when not (@fullScreen) {
   padding-top: (@paddingTop * 15px);
   padding-bottom: (@paddingBottom * 15px);
 }
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
 }
-& when (@bg-type = 'color') {
-  background: linear-gradient(45deg, @bg-value, @color2);
-}
-H1 {
-  color: #149dcc;
-}
-.mbr-text, .mbr-section-btn {
-  color: #ffffff;
-}
-H3 {
-  color: #232323;
+P {
+  color: #767676;
 }
 }
