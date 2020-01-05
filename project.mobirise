@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-01-04_2314",
+    "name": "Forever Positive",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -26,7 +26,8 @@
         "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
@@ -37,9 +38,17 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 5,
+    "uniqCompNum": 1,
     "versionPublish": "4.11.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/forever-positive-logo-png-128x107.png",
+    "noImageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -53,26 +62,65 @@
       },
       "components": [
         {
-          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "P": {
-              "color": "#767676"
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "H1": {
+              "color": "#149dcc"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            "H3": {
+              "color": "#232323"
             }
           },
-          "_name": "header16",
-          "_customHTML": "<div class=\"commentbox\"></div> \nimport commentBox from 'commentbox.io';\n// or\nconst commentBox = require('commentbox.io');\n// or if using the CDN, it will be available as a global \"commentBox\" variable.\n\ncommentBox('my-project-id');\nimport React from 'react';\nimport commentBox from 'commentbox.io';\n\nclass PageWithComments extends React.Component {\n\n    componentDidMount() {\n\n        this.removeCommentBox = commentBox('my-project-id');\n    }\n\n    componentWillUnmount() {\n\n        this.removeCommentBox();\n    }\n\n    render() {\n\n        return (\n            <div className=\"commentbox\" />\n        );\n    }\n}commentBox('my-project-id', {\n    className: 'commentbox', // the class of divs to look for\n    defaultBoxId: 'commentbox', // the default ID to associate to the div\n    tlcParam: 'tlc', // used for identifying links to comments on your page\n    backgroundColor: null, // default transparent\n    textColor: null, // default black\n    subtextColor: null, // default grey\n    singleSignOn: null, // enables Single Sign-On (for Professional plans only)\n    /**\n     * Creates a unique URL to each box on your page.\n     * \n     * @param {string} boxId\n     * @param {Location} pageLocation - a copy of the current window.location\n     * @returns {string}\n     */\n    createBoxUrl(boxId, pageLocation) {\n\n        pageLocation.search = ''; // removes query string!\n        pageLocation.hash = boxId; // creates link to this specific Comment Box on your page\n        return pageLocation.href; // return url string\n    },\n    /**\n     * Fires once the plugin loads its comments.\n     * May fire multiple times in its lifetime.\n     * \n     * @param {number} count\n     */\n    onCommentCount(count) {\n\n    }\n});commentBox('my-project-id', {\n    backgroundColor: '#000',\n    textColor: '#fff'\n});",
-          "_cid": "rMFPXlAi9s",
-          "_anchor": "header16-4",
+          "_name": "design-block",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#232323\" condition=\"bg.type=='color'\" selected>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Goodbye!</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">_______________</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Forever Positive has only been in business for 1 year (2019-2020) Unfortunatly we have decided to cancel the business due to many hard decisions. We did not want to end this way, however it was too hard for one person to keep the business going without the other partner. In no way am I trying to backstab my partner, but I feel that this business could have been successful, but it is hard to grow a business on your own. Priorites are important, and so is communication. This is NOT the last time you will see me, I am working on some other projects and will be released soon. Thank you for understanding, and I hope you guys stay positive. It has been the best year and we have accomplished so much within this year. Our podcasts are still available on spotify, and apple podcast. Thank you guys so much for everything!<br><br>- Anthony Lakey<br><br>Be Strong | Be Positive | Be You</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.instagram.com/anthonylakey/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Follow Anthony Lakey</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "1v68qldgeU",
+          "_anchor": "design-block-1v68qldgeU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#767676\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>January 3rd, 2020</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "rMzF3Mp4iC",
+          "_anchor": "content10-0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
