@@ -710,41 +710,7 @@ section.lazy-placeholder:after {
     opacity: 0.3;
 }@isPublish: true;
 
-.cid-rMFPXlAi9s {
-
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-P {
-  color: #767676;
-}
-}
-
-.cid-rMG5mNVo1J {
-@fullScreen: true;
-@paddingTop: 6;
-@paddingBottom: 6;
-@showTitle: true;
-@showSubTitle: true;
-@showText: false;
-@showButtons: true;
-@uname__12: "../../app/themes/mobirise4/components/header16/../_images/background4.jpg";
-@uname__13: true;
-@uname__14: #f7ed4a;
-@bg-value: #f7ed4a;
-@bg-type: "color";
-@bg-color-value: #f7ed4a;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #232323;
-@overlayOpacity: 0.6;
+.cid-rMJ5EaLowN {
 
 & when not (@fullScreen) {
   padding-top: (@paddingTop * 15px);
