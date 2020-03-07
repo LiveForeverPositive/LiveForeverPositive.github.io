@@ -6094,3 +6094,35 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
+.cid-rSAMwS3Hyz {
+  background: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+.cid-rSAMwS3Hyz .image-block {
+  margin: auto;
+}
+.cid-rSAMwS3Hyz figcaption {
+  position: relative;
+}
+.cid-rSAMwS3Hyz figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rSAMwS3Hyz .image-block {
+    width: 100% !important;
+  }
+}
+.cid-rSAO2eYpSg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rSAO2eYpSg .mbr-text {
+  color: #767676;
+}
+.cid-rSAO2eYpSg .mbr-text p {
+  background: #ffffff;
+}

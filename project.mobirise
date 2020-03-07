@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Forever Positive (REAL NEW)",
-    "currentPage": "page10.html",
+    "currentPage": "page11.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -63,7 +63,7 @@
         "url": "https://fonts.googleapis.com/css?family=Fredoka+One:400"
       }
     ],
-    "uniqCompNum": 115,
+    "uniqCompNum": 126,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -772,7 +772,7 @@
       "settings": {
         "meta_descr": "Learn About Who Forever Positive Is.",
         "title": "About Us",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1483,7 +1483,7 @@
       "settings": {
         "meta_descr": "Listen To Our Podcast.",
         "title": "Podcasts",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -2246,7 +2246,7 @@
       "settings": {
         "meta_descr": "Enjoy These Special Gifts Created Just For You!",
         "title": "Extras",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2827,7 +2827,7 @@
       "settings": {
         "meta_descr": "Here are more PDF Documents Just For You!",
         "title": "More PDFs",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3478,7 +3478,7 @@
       "settings": {
         "meta_descr": "Listen To Us Wherever You Get Your Podcasts.",
         "title": "Platforms",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -4232,7 +4232,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Contact Us",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -4747,7 +4747,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "newsletter",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -5347,7 +5347,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Apply To Be A Special Guest",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -5911,7 +5911,7 @@
       "settings": {
         "meta_descr": "",
         "title": "store",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -6189,7 +6189,7 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "Survey",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -6720,6 +6720,123 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page11.html": {
+      "settings": {
+        "meta_descr": "Web Generator Description",
+        "title": "TRKG 000001",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/logo1-549x146.png\" width=\"1400\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rSAMwS3Hyz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image1-3e"
+        },
+        {
+          "_params": {
+            "HTMLCode": "     <style>\n\n.button {\n  border-radius: 4px;\n  background-color: blue;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 15px;\n  padding: 20px;\n  width: 200px;\n  transition: all 0.5s;\n  cursor: pointer;\n  margin: 5px;\n}\n\n.button span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.5s;\n}\n\n.button span:after {\n  content: '\\00bb';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -20px;\n  transition: 0.5s;\n}\n\n.button:hover span {\n  padding-right: 25px;\n}\n\n.button:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n\n.intro {\n    font-size: 70px;\n    font-family: sans-serif;\n   \n}\n\np {\n    font-size: 19px;\n}\n\n\n\nh3 {\n    font-size: 20px;\n}\n\nol.progtrckr {\n    margin: 0;\n    padding: 0;\n    list-style-type none;\n}\n\nol.progtrckr li {\n    display: inline-block;\n    text-align: center;\n    line-height: 3.5em;\n}\n\n\nol.progtrckr[data-progtrckr-steps=\"2\"] li { width: 49%; }\nol.progtrckr[data-progtrckr-steps=\"3\"] li { width: 33%; }\nol.progtrckr[data-progtrckr-steps=\"4\"] li { width: 24%; }\nol.progtrckr[data-progtrckr-steps=\"5\"] li { width: 19%; }\nol.progtrckr[data-progtrckr-steps=\"6\"] li { width: 16%; }\nol.progtrckr[data-progtrckr-steps=\"7\"] li { width: 14%; }\nol.progtrckr[data-progtrckr-steps=\"8\"] li { width: 12%; }\nol.progtrckr[data-progtrckr-steps=\"9\"] li { width: 11%; }\n\nol.progtrckr li.progtrckr-done {\n    color: black;\n    border-bottom: 4px solid yellowgreen;\n}\nol.progtrckr li.progtrckr-todo {\n    color: silver; \n    border-bottom: 4px solid silver;\n}\n\nol.progtrckr li:after {\n    content: \"\\00a0\\00a0\";\n}\nol.progtrckr li:before {\n    position: relative;\n    bottom: -2.5em;\n    float: left;\n    left: 50%;\n    line-height: 1em;\n}\nol.progtrckr li.progtrckr-done:before {\n    content: \"\\2713\";\n    color: white;\n    background-color: yellowgreen;\n    height: 2.2em;\n    width: 2.2em;\n    line-height: 2.2em;\n    border: none;\n    border-radius: 2.2em;\n}\nol.progtrckr li.progtrckr-todo:before {\n    content: \"\\039F\";\n    color: silver;\n    background-color: white;\n    font-size: 2.2em;\n    bottom: -1.2em;\n}\n\n/* END TRACKING CSS */\n\n.price {\n  color: grey;\n  font-size: 22px;\n}\n\n.card button {\n  border: none;\n  outline: 0;\n  padding: 12px;\n  color: white;\n  background-color: #000;\n  text-align: center;\n  cursor: pointer;\n  width: 100%;\n  font-size: 18px;\n}\n\n.card button:hover {\n  opacity: 0.7;\n}\n\n/* END TRACKING CSS */\n\n.alert {\n  padding: 20px;\n  background-color: #f44336;\n  color: white;\n}\n\n.closebtn {\n  margin-left: 15px;\n  color: white;\n  font-weight: bold;\n  float: right;\n  font-size: 22px;\n  line-height: 20px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.closebtn:hover {\n  color: black;\n}\n\n/* END CSS FOR ALERT */\n\n.accordion {\n  background-color: #eee;\n  color: #444;\n  cursor: pointer;\n  padding: 18px;\n  width: 100%;\n  border: none;\n  text-align: left;\n  outline: none;\n  font-size: 15px;\n  transition: 0.4s;\n}\n\n.active, .accordion:hover {\n  background-color: #ccc; \n}\n\n.panel {\n  padding: 0 18px;\n  display: none;\n  background-color: white;\n  overflow: hidden;\n}\n\n</style>\n     \n     \n     \n     \n </head>\n <body>\n     \n     <center>\n     \n     <hr>\n \n     <h1 class=\"intro\">Hello, Julia Lizak</h1>\n     <h3>Here is your order status for <u>Order Number : 000001</u></h3>\n         \n         <!-- HTML for Alert Mssg -->\n         \n         <div class=\"alert\">\n  <span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span> \n  <strong>Alert!</strong> Your Tracking Status has changed to <strong>\"In Production\"</strong> Thank You!\n</div>\n     <br><br>\n     <!-- HTML for Tracking Info -->\n<ol class=\"progtrckr\" data-progtrckr-steps=\"5\">\n<li class=\"progtrckr-done\">Order Processing</li>\n <li class=\"progtrckr-done\">In Production</li>\n <li class=\"progtrckr-todo\">On The Way</li>\n <li class=\"progtrckr-todo\">Delivered</li>\n</ol>\n         <br><br><br><br><br><br>",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "     <style>\n\n.button {\n  border-radius: 4px;\n  background-color: blue;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 15px;\n  padding: 20px;\n  width: 200px;\n  transition: all 0.5s;\n  cursor: pointer;\n  margin: 5px;\n}\n\n.button span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.5s;\n}\n\n.button span:after {\n  content: '\\00bb';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -20px;\n  transition: 0.5s;\n}\n\n.button:hover span {\n  padding-right: 25px;\n}\n\n.button:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n\n.intro {\n    font-size: 70px;\n    font-family: sans-serif;\n   \n}\n\np {\n    font-size: 19px;\n}\n\n\n\nh3 {\n    font-size: 20px;\n}\n\nol.progtrckr {\n    margin: 0;\n    padding: 0;\n    list-style-type none;\n}\n\nol.progtrckr li {\n    display: inline-block;\n    text-align: center;\n    line-height: 3.5em;\n}\n\n\nol.progtrckr[data-progtrckr-steps=\"2\"] li { width: 49%; }\nol.progtrckr[data-progtrckr-steps=\"3\"] li { width: 33%; }\nol.progtrckr[data-progtrckr-steps=\"4\"] li { width: 24%; }\nol.progtrckr[data-progtrckr-steps=\"5\"] li { width: 19%; }\nol.progtrckr[data-progtrckr-steps=\"6\"] li { width: 16%; }\nol.progtrckr[data-progtrckr-steps=\"7\"] li { width: 14%; }\nol.progtrckr[data-progtrckr-steps=\"8\"] li { width: 12%; }\nol.progtrckr[data-progtrckr-steps=\"9\"] li { width: 11%; }\n\nol.progtrckr li.progtrckr-done {\n    color: black;\n    border-bottom: 4px solid yellowgreen;\n}\nol.progtrckr li.progtrckr-todo {\n    color: silver; \n    border-bottom: 4px solid silver;\n}\n\nol.progtrckr li:after {\n    content: \"\\00a0\\00a0\";\n}\nol.progtrckr li:before {\n    position: relative;\n    bottom: -2.5em;\n    float: left;\n    left: 50%;\n    line-height: 1em;\n}\nol.progtrckr li.progtrckr-done:before {\n    content: \"\\2713\";\n    color: white;\n    background-color: yellowgreen;\n    height: 2.2em;\n    width: 2.2em;\n    line-height: 2.2em;\n    border: none;\n    border-radius: 2.2em;\n}\nol.progtrckr li.progtrckr-todo:before {\n    content: \"\\039F\";\n    color: silver;\n    background-color: white;\n    font-size: 2.2em;\n    bottom: -1.2em;\n}\n\n/* END TRACKING CSS */\n\n.price {\n  color: grey;\n  font-size: 22px;\n}\n\n.card button {\n  border: none;\n  outline: 0;\n  padding: 12px;\n  color: white;\n  background-color: #000;\n  text-align: center;\n  cursor: pointer;\n  width: 100%;\n  font-size: 18px;\n}\n\n.card button:hover {\n  opacity: 0.7;\n}\n\n/* END TRACKING CSS */\n\n.alert {\n  padding: 20px;\n  background-color: #f44336;\n  color: white;\n}\n\n.closebtn {\n  margin-left: 15px;\n  color: white;\n  font-weight: bold;\n  float: right;\n  font-size: 22px;\n  line-height: 20px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.closebtn:hover {\n  color: black;\n}\n\n/* END CSS FOR ALERT */\n\n.accordion {\n  background-color: #eee;\n  color: #444;\n  cursor: pointer;\n  padding: 18px;\n  width: 100%;\n  border: none;\n  text-align: left;\n  outline: none;\n  font-size: 15px;\n  transition: 0.4s;\n}\n\n.active, .accordion:hover {\n  background-color: #ccc; \n}\n\n.panel {\n  padding: 0 18px;\n  display: none;\n  background-color: white;\n  overflow: hidden;\n}\n\n</style>\n     \n     \n     \n     \n </head>\n <body>\n     \n     <center>\n     \n     <hr>\n \n     <h1 class=\"intro\">Hello, Julia Lizak</h1>\n     <h3>Here is your order status for <u>Order Number : 000001</u></h3>\n         \n         <!-- HTML for Alert Mssg -->\n         \n         <div class=\"alert\">\n  <span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span> \n  <strong>Alert!</strong> Your Tracking Status has changed to <strong>\"In Production\"</strong> Thank You!\n</div>\n     <br><br>\n     <!-- HTML for Tracking Info -->\n<ol class=\"progtrckr\" data-progtrckr-steps=\"5\">\n<li class=\"progtrckr-done\">Order Processing</li>\n <li class=\"progtrckr-done\">In Production</li>\n <li class=\"progtrckr-todo\">On The Way</li>\n <li class=\"progtrckr-todo\">Delivered</li>\n</ol>\n         <br><br><br><br><br><br>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-3c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            }
+          },
+          "_name": "content14",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings=\"\" class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article=\"\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSAO2eYpSg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content14-3h"
+        },
+        {
+          "_params": {
+            "HTMLCode": "<center>\n<style>\n.button {\n  border-radius: 4px;\n  background-color: blue;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 15px;\n  padding: 20px;\n  width: 200px;\n  transition: all 0.5s;\n  cursor: pointer;\n  margin: 5px;\n}\n\n.button span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.5s;\n}\n\n.button span:after {\n  content: '\\00bb';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -20px;\n  transition: 0.5s;\n}\n\n.button:hover span {\n  padding-right: 25px;\n}\n\n.button:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n\n</style>\n\n<a href=\"https://www.foreverpositivepodcast.com\" target=\"_blank\">\n         <button class=\"button\"><span>Visit Our Website</span></button>\n        </a>\n</center>",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<center>\n<style>\n.button {\n  border-radius: 4px;\n  background-color: blue;\n  border: none;\n  color: #FFFFFF;\n  text-align: center;\n  font-size: 15px;\n  padding: 20px;\n  width: 200px;\n  transition: all 0.5s;\n  cursor: pointer;\n  margin: 5px;\n}\n\n.button span {\n  cursor: pointer;\n  display: inline-block;\n  position: relative;\n  transition: 0.5s;\n}\n\n.button span:after {\n  content: '\\00bb';\n  position: absolute;\n  opacity: 0;\n  top: 0;\n  right: -20px;\n  transition: 0.5s;\n}\n\n.button:hover span {\n  padding-right: 25px;\n}\n\n.button:hover span:after {\n  opacity: 1;\n  right: 0;\n}\n\n</style>\n\n<a href=\"https://www.foreverpositivepodcast.com\" target=\"_blank\">\n         <button class=\"button\"><span>Visit Our Website</span></button>\n        </a>\n</center>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-3f"
         }
       ]
     }
