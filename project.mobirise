@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Forever Positive (REAL NEW)",
-    "currentPage": "aboutus.html",
+    "currentPage": "glaxia.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -63,7 +63,7 @@
         "url": "https://fonts.googleapis.com/css?family=Fredoka+One:400"
       }
     ],
-    "uniqCompNum": 148,
+    "uniqCompNum": 151,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -848,6 +848,191 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rS95E47t0E",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when (@showPossSocial = false)": {
+              ".icon-bar": {
+                "z-index": "100002",
+                "right": "(@SocialSpacing * 1%)",
+                "position": "fixed",
+                "top": "50%",
+                "font-weight": "normal",
+                "-webkit-transform": "translateY(-50%)",
+                "-ms-transform": "translateY(-50%)",
+                "transform": "translateY(-50%)"
+              },
+              "& when (@showFloat = false)": {
+                ".icon-bar a:hover": {
+                  "background-color": "@FloatColor"
+                }
+              },
+              "& when (@showFloat)": {
+                ".icon-bar a:hover": {
+                  "background-color": "@FloatColor",
+                  "margin-left": "-50px",
+                  "width": "100px"
+                }
+              }
+            },
+            "& when (@showPossSocial)": {
+              ".icon-bar": {
+                "z-index": "100002",
+                "left": "(@SocialSpacing * 1%)",
+                "position": "fixed",
+                "top": "50%",
+                "font-weight": "normal",
+                "-webkit-transform": "translateY(-50%)",
+                "-ms-transform": "translateY(-50%)",
+                "transform": "translateY(-50%)"
+              },
+              "& when (@showFloat)": {
+                ".icon-bar a:hover": {
+                  "background-color": "@FloatColor",
+                  "width": "100px"
+                }
+              },
+              "& when (@showFloat = false)": {
+                ".icon-bar a:hover": {
+                  "background-color": "@FloatColor"
+                }
+              }
+            },
+            ".icon-bar a": {
+              "display": "block",
+              "text-align": "center",
+              "padding": "10px",
+              "transition": "all 0.3s ease",
+              "color": "white",
+              "font-size": "20px",
+              "font-weight": "normal",
+              "margin": "(@SocialSpace * 1px)",
+              "border-radius": "(@SocialRadius * 1px)"
+            },
+            ".facebook": {
+              "background": "#3B5998",
+              "color": "white",
+              "width": "50px"
+            },
+            ".twitter": {
+              "background": "#55ACEE",
+              "color": "white",
+              "width": "50px"
+            },
+            ".google": {
+              "background": "#dd4b39",
+              "color": "white",
+              "width": "50px"
+            },
+            ".linkedin": {
+              "background": "#007bb5",
+              "color": "white",
+              "width": "50px"
+            },
+            ".youtube": {
+              "background": "#bb0000",
+              "color": "white",
+              "width": "50px"
+            },
+            ".instagram": {
+              "background": "#6F3AA7",
+              "color": "white",
+              "width": "50px"
+            },
+            ".custom1": {
+              "background": "@CustomColor1",
+              "color": "white",
+              "width": "50px"
+            },
+            ".custom2": {
+              "background": "@CustomColor2",
+              "color": "white",
+              "width": "50px"
+            },
+            ".content": {
+              "margin-left": "75px",
+              "font-size": "30px"
+            },
+            ".corner-ribbon": {
+              "z-index": "10000",
+              "width": "200px",
+              "background-image": "linear-gradient(@RibbonColor, @RibbonColor1)",
+              "position": "absolute",
+              "top": "25px",
+              "left": "-50px",
+              "text-align": "center",
+              "line-height": "50px",
+              "letter-spacing": "1px",
+              "transform": "rotate(-45deg)",
+              "-webkit-transform": "rotate(-45deg)",
+              "box-shadow": "0 0 3px rgba(0, 0, 0, 0.3)"
+            },
+            ".corner-ribbon ov:hover .effetover": {
+              "background-image": "linear-gradient(@RibbonColor1, @RibbonColor)"
+            },
+            "& when (@RibbonPoss = 'LeftTop')": {
+              ".corner-ribbon.top-zen": {
+                "top": "25px",
+                "left": "-50px",
+                "transform": "rotate(-45deg)",
+                "-webkit-transform": "rotate(-45deg)",
+                "position": "fixed"
+              }
+            },
+            "& when (@RibbonPoss = 'RightTop')": {
+              ".corner-ribbon.top-zen": {
+                "top": "25px",
+                "right": "-50px",
+                "left": "auto",
+                "transform": "rotate(45deg)",
+                "-webkit-transform": "rotate(45deg)",
+                "position": "fixed"
+              }
+            },
+            "& when (@RibbonPoss = 'RightBottom')": {
+              ".corner-ribbon.top-zen": {
+                "top": "auto",
+                "right": "-50px",
+                "bottom": "25px",
+                "left": "auto",
+                "transform": "rotate(-45deg)",
+                "-webkit-transform": "rotate(-45deg)",
+                "position": "fixed"
+              }
+            },
+            "& when (@RibbonPoss = 'LeftBottom')": {
+              ".corner-ribbon.top-zen": {
+                "top": "auto",
+                "bottom": "25px",
+                "left": "-50px",
+                "transform": "rotate(45deg)",
+                "-webkit-transform": "rotate(45deg)",
+                "position": "fixed"
+              }
+            },
+            "P": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            },
+            "H10": {
+              "color": "#767676"
+            },
+            ".hidden": {
+              "display": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n \n  \n    <mbr-parameters>\n<hr><header>Social Config</header>\n      <input type=\"checkbox\" title=\"Show Social Button\" name=\"showSocial\" checked>\n      <input type=\"checkbox\" title=\"Right/Left\" name=\"showPossSocial\" condition=\"showSocial\" checked>\n      <input type=\"checkbox\" title=\"Float Over\" name=\"showFloat\" condition=\"showSocial\" checked>\n       <input type=\"color\" title=\"Float Color\" name=\"FloatColor\" value=\"#000000\" condition=\"showSocial\">\n       <input type=\"range\" title=\"Radius\" name=\"SocialRadius\" min=\"0\" max=\"25\" step=\"1\" value=\"14\" condition=\"showSocial\">\n       <input type=\"range\" title=\"Spacing\" name=\"SocialSpace\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"showSocial\">\n       <input type=\"range\" title=\"Tab\" name=\"SocialSpacing\" min=\"0\" max=\"3\" step=\"0.2\" value=\"0.4\" condition=\"showSocial\">\n      <input type=\"checkbox\" title=\"Facebook\" name=\"showFB\" condition=\"showSocial\">\n      <input type=\"text\" name=\"Facebook\" title=\"Link\" value=\"https://www.facebook.com/\" condition=\"showFB&&showSocial\">\n      <input type=\"checkbox\" title=\"Twitter\" name=\"showTW\" condition=\"showSocial\">\n      <input type=\"text\" name=\"Twitter\" title=\"Link\" value=\"https://www.twitter.com/\" condition=\"showTW&&showSocial\">\n      <input type=\"checkbox\" title=\"Google\" name=\"showGG\" condition=\"showSocial\">\n      <input type=\"text\" name=\"Google\" title=\"Link\" value=\"https://www.google.com/\" condition=\"showGG&&showSocial\">\n      <input type=\"checkbox\" title=\"Linkedin\" name=\"showLK\" condition=\"showSocial\">\n      <input type=\"text\" name=\"Linkedin\" title=\"Link\" value=\"https://www.linkedin.com/\" condition=\"showLK&&showSocial\">\n      <input type=\"checkbox\" title=\"Youtube\" name=\"showYT\" condition=\"showSocial\" checked>\n      <input type=\"text\" name=\"Youtube\" title=\"Link\" value=\"https://www.youtube.com/\" condition=\"showYT&&showSocial\">\n      <input type=\"checkbox\" title=\"Instagram\" name=\"showIT\" condition=\"showSocial\" checked>\n      <input type=\"text\" name=\"Instagram\" title=\"Link\" value=\"https://www.instagram.com/\" condition=\"showIT&&showSocial\">\n      <input type=\"checkbox\" title=\"Custom 1\" name=\"showC1\" condition=\"showSocial\" checked>\n                    <input type=\"color\" title=\"Background Color\" name=\"CustomColor1\" value=\"#ff7300\" condition=\"showC1&&showSocial\">\n      <input type=\"checkbox\" title=\"Custom 2\" name=\"showC2\" condition=\"showSocial\" checked>\n                    <input type=\"color\" title=\"Background Color\" name=\"CustomColor2\" value=\"#01bf46\" condition=\"showC2&&showSocial\">\n\n      <header>Ribbon Config</header>\n      <input type=\"checkbox\" title=\"Show Ribbon\" name=\"Ribbon\">\n      <select title=\"Position\" name=\"RibbonPoss\" condition=\"Ribbon\">\n            <option value=\"LeftTop\" selected>Top Left</option>\n            <option value=\"RightTop\">Top Right</option>\n            <option value=\"LeftBottom\">Bottom Left</option>\n            <option value=\"RightBottom\">Bottom Right</option>\n      </select>\n       <input type=\"color\" title=\"Background Color 1\" name=\"RibbonColor\" value=\"#55b4d4\" condition=\"Ribbon\">\n        <input type=\"color\" title=\"Background Color 2\" name=\"RibbonColor1\" value=\"#000000\" condition=\"Ribbon\">\n\n    </mbr-parameters> \n  \n  \n<div mbr-if=\"Ribbon\">\n  <div class=\"corner-ribbon effetover top-zen\" mbr-text><ov>FACEBOOK</ov></div>\n</div>              \n      \n\n<div class=\"icon-bar\" mbr-if=\"showSocial\">\n  <a href=\"{{Facebook}}\" class=\"facebook\" mbr-if=\"showFB\"><z class=\"mbr-iconfont socicon-facebook socicon\" mbr-if=\"showFB\"></z></a> \n  <a href=\"{{Twitter}}\" class=\"twitter\" mbr-if=\"showTW\"><z class=\"mbr-iconfont socicon-twitter socicon\" mbr-if=\"showTW\"></z></a> \n  <a href=\"{{Google}}\" class=\"google\" mbr-if=\"showGG\"><z class=\"mbr-iconfont socicon-google socicon\" mbr-if=\"showGG\"></z></a> \n  <a href=\"{{Linkedin}}\" class=\"linkedin\" mbr-if=\"showLK\"><z class=\"mbr-iconfont socicon-linkedin socicon\" mbr-if=\"showLK\"></z></a>\n  <a href=\"{{Youtube}}\" class=\"youtube\" mbr-if=\"showYT\"><z class=\"mbr-iconfont socicon-youtube socicon\" mbr-if=\"showYT\"></z></a> \n  <a href=\"{{Instagram}}\" class=\"instagram\" mbr-if=\"showIT\"><z class=\"fa fa-instagram\" mbr-if=\"showIT\"></z></a> \n  <a href=\"https://www.google.com\" class=\"custom1\" mbr-if=\"showC1\"><z mbr-if=\"showC1\"><span mbr-icon class=\"mbr-iconfont mbri-apple\" style=\"font-size: 20px; color: rgb(35, 35, 35); fill: rgb(35, 35, 35);\"></span></z></a>\n  <a href=\"https://www.google.com\" class=\"custom2\" mbr-if=\"showC2\"><z mbr-if=\"showC2\"><span mbr-icon class=\"mbr-iconfont socicon-spotify socicon\" style=\"font-size: 20px;\"></span></z></a>\n </div>  \n\n <div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <h10> <br><br><br><br><br><br>Floating Social Menu and Ribbons<br><br>\n        Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.<br><br><br><br><br><br></h10>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_cid": "diSUeJm8zL",
+          "_anchor": "design-block-diSUeJm8zL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7379,10 +7564,10 @@
         }
       ]
     },
-    "page15.html": {
+    "glaxia.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "",
+        "meta_descr": "",
+        "title": "Glaxia",
         "order": 1
       },
       "components": [
@@ -7802,13 +7987,101 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo1-364x97.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">About Us</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"podcasts.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Podcasts</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"extras.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Extras&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"platforms.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>\n                    Platforms</a> <a class=\"btn btn-sm btn-success\" href=\"store.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>Store</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo1-364x97.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">About Us</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"podcasts.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Podcasts</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"extras.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Extras&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"platforms.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-music mbr-iconfont mbr-iconfont-btn\"></span>\n                    Platforms</a> <a class=\"btn btn-sm btn-success\" href=\"store.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>Store</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rRfVDt4orS",
           "_anchor": "menu2-43",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/moon-view-pro-album-cover-1014x1014.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/moon-view-pro-album-cover-1014x1014.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">\n                    Moon View - Single</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\">\n                        Forever Positive has partnered with EDM Artist Galaxia. We both spread positvity and joy amognst all platforms for music and podcasts.</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-spotify mbr-iconfont mbr-iconfont-btn\"></span>Listen Now</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mbri-apple mbr-iconfont mbr-iconfont-btn\"></span>Purchase Now</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rWi0p9STj3",
+          "_anchor": "header3-44",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
+            },
+            "& when (@reverseContent)": {
+              ".content-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            "H2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section class=\"mbr-section info1\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on left/right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/moon-view-pro-album-cover-1014x1014.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#cebfaf\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center content-row\">\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Here are all the platforms you can follow Galaxia.</h3>\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Follow Galaxia!</h2>\n            </div>\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"https://www.instagram.com/glaxxian/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>Instagram</a> <a class=\"btn btn-primary\" href=\"https://twitter.com/NoahBragg3\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>Twitter &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-secondary\" href=\"https://soundcloud.com/noah-brag\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-soundcloud mbr-iconfont mbr-iconfont-btn\"></span>SoundCloud</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rWi2IPeUfi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info1-46"
         }
       ]
     }

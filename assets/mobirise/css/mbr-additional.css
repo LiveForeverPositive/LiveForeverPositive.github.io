@@ -1248,6 +1248,112 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
+.cid-diSUeJm8zL .icon-bar {
+  z-index: 100002;
+  left: 0.4%;
+  position: fixed;
+  top: 50%;
+  font-weight: normal;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cid-diSUeJm8zL .icon-bar a:hover {
+  background-color: #000000;
+  width: 100px;
+}
+.cid-diSUeJm8zL .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 2px;
+  border-radius: 14px;
+}
+.cid-diSUeJm8zL .facebook {
+  background: #3B5998;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .twitter {
+  background: #55ACEE;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .google {
+  background: #dd4b39;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .linkedin {
+  background: #007bb5;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .youtube {
+  background: #bb0000;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .instagram {
+  background: #6F3AA7;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .custom1 {
+  background: #ff7300;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .custom2 {
+  background: #01bf46;
+  color: white;
+  width: 50px;
+}
+.cid-diSUeJm8zL .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.cid-diSUeJm8zL .corner-ribbon {
+  z-index: 10000;
+  width: 200px;
+  background-image: linear-gradient(#55b4d4, #000000);
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.cid-diSUeJm8zL .corner-ribbon ov:hover .effetover {
+  background-image: linear-gradient(#000000, #55b4d4);
+}
+.cid-diSUeJm8zL .corner-ribbon.top-zen {
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: fixed;
+}
+.cid-diSUeJm8zL P {
+  color: #232323;
+  text-align: center;
+}
+.cid-diSUeJm8zL DIV {
+  color: #ffffff;
+}
+.cid-diSUeJm8zL H10 {
+  color: #767676;
+}
+.cid-diSUeJm8zL .hidden {
+  display: none;
+}
 .cid-rRfVDt4orS .navbar {
   background: #ffffff;
   transition: none;
@@ -6739,7 +6845,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-rRfVDt4orS .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.1rem);
   }
 }
 .cid-rRfVDt4orS .collapsed button.navbar-toggler {
@@ -6892,4 +6998,42 @@ section.lazy-placeholder:after {
 .cid-rRfVDt4orS .nav-link:hover,
 .cid-rRfVDt4orS .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-rWi0p9STj3 {
+  background-image: url("../../../assets/images/moon-view-pro-album-cover-1014x1014.png");
+}
+.cid-rWi0p9STj3 .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rWi0p9STj3 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rWi0p9STj3 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rWi0p9STj3 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-rWi2IPeUfi {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #232323;
+}
+.cid-rWi2IPeUfi .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-rWi2IPeUfi .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rWi2IPeUfi H2 {
+  color: #ffffff;
 }
