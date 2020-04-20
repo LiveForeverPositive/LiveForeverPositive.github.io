@@ -3,3 +3,8 @@
    font-display: swap;
    src: url('WCManoNegraBoldBta/font.ttf');
 }
+@font-face {
+   font-family: 'Gagalin-Regular';
+   font-display: swap;
+   src: url('Gagalin-Regular/font.ttf');
+}
