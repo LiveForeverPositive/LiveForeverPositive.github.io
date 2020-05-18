@@ -1128,6 +1128,21 @@ section.lazy-placeholder:after {
 .cid-rRHS8WbhcO H3 {
   text-align: left;
 }
+.cid-rZj8Lsat2n {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #55b4d4, #47dd39);
+}
+@media (min-width: 992px) {
+  .cid-rZj8Lsat2n .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rZj8Lsat2n .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-kIrmulpROO {
   padding-top: 75px;
   padding-bottom: 95px;
