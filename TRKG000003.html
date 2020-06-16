@@ -19,7 +19,23 @@
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <script type="text/javascript">
+// PASSWORD PROTECTION SCRIPT
+
+function TheLogin() {
+
+var password = '5821';
+
+if (this.document.login.pass.value == password) {
+  top.location.href="https://web.roblox.com/home";
+}
+else {
+  window.alert("Incorrect password, please try again.");
+  }
+}
+
+</script>
+
   
 </head>
 <body>
@@ -262,6 +278,15 @@ h3 {
             </div>
         </div>
     </div>
+    
+    <div style="text-align: center; margin: 0 auto; color: #0000FF; font: normal 13px arial, sans-serif;">
+Enter your password:<br>
+<form name="login" style="margin: 5px 0px 0px 0px;">
+<input type="text" name="pass" size="17" onkeydown="if(event.keyCode==13) event.keyCode=9;" style="width: 130px;"><br>
+<input type="button" value="Click to Login" style="width: 134px; margin: 4px auto 4px auto;" onclick="javascript:TheLogin(this.form)">
+</form>
+</div>
+
 </center></section>
 
 <section class="mbr-section" id="witsec-custom-html-block-3f" data-rv-view="171" style="background-color: rgb(255, 255, 255);">
