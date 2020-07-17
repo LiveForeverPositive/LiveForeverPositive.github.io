@@ -7873,3 +7873,44 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
+.cid-s4X4QwvDrr {
+  background: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+.cid-s4X4QwvDrr .image-block {
+  margin: auto;
+}
+.cid-s4X4QwvDrr figcaption {
+  position: relative;
+}
+.cid-s4X4QwvDrr figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s4X4QwvDrr .image-block {
+    width: 100% !important;
+  }
+}
+.cid-s4X4QwQtvV {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-s4X4QwQtvV h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-s4X4QwQtvV p {
+  color: #767676;
+  text-align: left;
+}
+.cid-s4X4QwQtvV .card-box {
+  padding-top: 2rem;
+}
+.cid-s4X4QwQtvV .card-wrapper {
+  height: 100%;
+}
