@@ -163,23 +163,33 @@
                                         $3.50</p>
                                     <!--Btn-->
                                   <center>
-                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="4JR4AUGRB3C3W">
-<table>
-<tbody><tr><td><input type="hidden" name="on0" value="Flavors">Flavors</td></tr><tr><td><select name="os0">
-	<option value="Cherry">Cherry $3.50 USD</option>
-	<option value="Peppermint">Peppermint $3.50 USD</option>
-</select> </td></tr>
-</tbody></table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<span class="gdpr-block">
-<label>
-<span class="textGDPR" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-input" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
-</label>
-</span></form>
+                                <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AfeOZ4xxxG7ZcrtNnKedh6Wm6cRsPdCEV6QtuYItaNd1FXyXdq-wpHxvB-J-xZOkSjp3WF7SG0Qum8zZ&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '3.50'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
 
 
                                   </center>
@@ -254,26 +264,36 @@
                             <div class="col-12 col-md-5 col-lg-4">
                                 <div class="wrapper border_wrapper">
                                     <!--Cost-->
-                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">$9.99-$14.99&nbsp;</p>
+                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">$10.00&nbsp;</p>
                                     <!--Btn-->
                                   <center>
-                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="UUSTYWHFYYUJG">
-<table>
-<tbody><tr><td><input type="hidden" name="on0" value="Versions:">Versions:</td></tr><tr><td><select name="os0">
-	<option value="Original">Original $9.99 USD</option>
-	<option value="Autographed">Autographed $14.99 USD</option>
-</select> </td></tr>
-</tbody></table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<span class="gdpr-block">
-<label>
-<span class="textGDPR" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-input" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
-</label>
-</span></form>
+                                 <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AaViw32Y8npfrYNj7oGqpyPb4TcuAE0B4QCU7YnYPmkwmsG3ipz7hkYAkxQJQzYTXlObggwJlqB6XuBd&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '10.00'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
 
 
                                   </center>
@@ -327,26 +347,36 @@
                             <div class="col-12 col-md-5 col-lg-4">
                                 <div class="wrapper border_wrapper">
                                     <!--Cost-->
-                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">$9.99-$14.99</p>
+                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">$10.00</p>
                                     <!--Btn-->
                                   <center>
-                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="UUSTYWHFYYUJG">
-<table>
-<tbody><tr><td><input type="hidden" name="on0" value="Versions:">Versions:</td></tr><tr><td><select name="os0">
-	<option value="Original">Original $9.99 USD</option>
-	<option value="Autographed">Autographed $14.99 USD</option>
-</select> </td></tr>
-</tbody></table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<span class="gdpr-block">
-<label>
-<span class="textGDPR" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-input" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
-</label>
-</span></form>
+                                 <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AdhAbCOB6cohRCNg-83g0U3VvBhW-pA9JAeTRninznkVf4oFbRx1hiU-MYRtghQLg7ZuKzntCuYcUmaN&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '10.00'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
 
 
                                   </center>
@@ -418,43 +448,43 @@
                             </div>
                             <div class="col-12 col-md-5 col-lg-4">
                                 <div class="wrapper border_wrapper">
-                                    <!--Cost-->
-                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">$1.00 ea</p>
-                                    <!--Btn-->
+                                    
                                   <center>
-                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="S7Y79DD73SC4Q">
-<table>
-<tbody><tr><td><input type="hidden" name="on0" value="Design:">Design:</td></tr><tr><td><select name="os0">
-	<option value="Design #1">Design #1 </option>
-	<option value="Design #2">Design #2 </option>
-	<option value="Design #3">Design #3 </option>
-	<option value="Design #4">Design #4 </option>
-	<option value="Design #5">Design #5 </option>
-	<option value="Design #6">Design #6 </option>
-</select> </td></tr>
-</tbody></table>
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<span class="gdpr-block">
-<label>
-<span class="textGDPR" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-input" required="">By continuing you agree to our <a style="color: #149dcc; text-decoration: none;" href="terms.html">Terms of Service</a> and <a style="color: #149dcc; text-decoration: none;" href="policy.html">Privacy Policy</a>.</span>
-</label>
-</span></form>
+                 
 
                                     
                          <div class="wrapper border_wrapper">
                                     <!--Cost-->
-                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2">Or<br>$5.00 for 6pck</p>
+                                    <p class="mbr-text mbr-fonts-style col-right mbr-black align-center display-2"><br>$5.00 for 6pck</p>
                                     <!--Btn-->
                                   <br>
-                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="LQFSEZJKUFSH6">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+                                 <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AW3tXs_r7JqPrfpxx-KunjnyT5IudVgrwTZ4XgEkkT8qQ5XWloLxaca6xiQtPcNiJ7i4qNaxQfy1szCJ&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '5.00'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
 
 
                                   </div></center>
