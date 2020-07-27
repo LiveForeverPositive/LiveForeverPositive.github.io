@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Forever Positive (REAL NEW)",
-    "currentPage": "TRKG000007.html",
+    "currentPage": "store.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -71,7 +71,7 @@
         "file": "@PROJECT_PATH@/fonts/Gagalin-Regular/font.ttf"
       }
     ],
-    "uniqCompNum": 233,
+    "uniqCompNum": 244,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-16x16.png",
@@ -948,7 +948,7 @@
       "settings": {
         "meta_descr": "Learn About Who Forever Positive Is.",
         "title": "About Us",
-        "order": 8
+        "order": 10
       },
       "components": [
         {
@@ -1659,7 +1659,7 @@
       "settings": {
         "meta_descr": "Listen To Our Podcast.",
         "title": "Podcasts",
-        "order": 10
+        "order": 12
       },
       "components": [
         {
@@ -2422,7 +2422,7 @@
       "settings": {
         "meta_descr": "Listen To Us Wherever You Get Your Podcasts.",
         "title": "Platforms",
-        "order": 11
+        "order": 13
       },
       "components": [
         {
@@ -3135,7 +3135,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Contact Us",
-        "order": 12
+        "order": 14
       },
       "components": [
         {
@@ -3650,7 +3650,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "newsletter",
-        "order": 16
+        "order": 18
       },
       "components": [
         {
@@ -4250,7 +4250,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Apply To Be A Special Guest",
-        "order": 15
+        "order": 17
       },
       "components": [
         {
@@ -4812,9 +4812,9 @@
     },
     "store.html": {
       "settings": {
-        "meta_descr": "",
-        "title": "store",
-        "order": 1
+        "meta_descr": "Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!",
+        "title": "Store",
+        "order": 3
       },
       "components": [
         {
@@ -5261,7 +5261,7 @@
             }
           },
           "_name": "header6",
-          "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#767676\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Welcome To Our Merch Store!</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"store.html#design-block-313UUKTwM3\" data-app-placeholder=\"Type Text\">Lip Balm</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"store.html#design-block-69\" data-app-placeholder=\"Type Text\">Posters</a> <a class=\"btn btn-md btn-white-outline\" href=\"store.html#header16-6b\" data-app-placeholder=\"Type Text\">Stickers</a> <a class=\"btn btn-md btn-secondary\" href=\"store.html#services4-40\" data-app-placeholder=\"Type Text\">View All</a></div>\n          </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header6\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#767676\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Welcome To Our Merch Store!</h1>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"store.html#design-block-6h\" data-app-placeholder=\"Type Text\">Apparel</a> <a class=\"btn btn-md btn-white-outline\" href=\"store.html#design-block-313UUKTwM3\" data-app-placeholder=\"Type Text\">Lip Balm</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"store.html#design-block-69\" data-app-placeholder=\"Type Text\">Posters</a> <a class=\"btn btn-md btn-white-outline\" href=\"store.html#header16-6b\" data-app-placeholder=\"Type Text\">Stickers</a> <a class=\"btn btn-md btn-secondary\" href=\"store.html#services4-40\" data-app-placeholder=\"Type Text\">View All</a></div>\n          </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "s4VKk3VuMR",
           "_anchor": "header6-68",
           "_protectedParams": [],
@@ -5290,6 +5290,124 @@
           "_customHTML": "<section class=\"mbr-section article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#149dcc\">\n      \t<input type=\"color\" title=\"Quote Background Color\" name=\"quoteBgColor\" value=\"#efefef\">\n      \t<input type=\"color\" title=\"Quote Line Color\" name=\"quoteLineColor\" value=\"#000000\">\n      \t<input type=\"range\" inline title=\"Quote Line Width\" name=\"quoteLineWidth\" min=\"0\" max=\"20\" step=\"1\" value=\"8\">\n      \t<input type=\"range\" inline title=\"Quote Border Radius\" name=\"quoteBorderRadius\" min=\"0\" max=\"50\" step=\"5\" value=\"25\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-style: normal;\">We use Paypal™ for our payment method. You<b> DO NOT </b>need a Paypal™ account to purchase. Please select \"Pay with Credit/Debit Card\" at checkout.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qFOPyBfhnN",
           "_anchor": "design-block-qFOPyBfhnN",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            },
+            "hr": {
+              "border": "none",
+              "height": "50px",
+              "width": "90%",
+              "margin-top": "0",
+              "border-bottom": "1px solid #1f1209",
+              "box-shadow": "0 20px 20px -20px #333333",
+              "margin": "-50px auto 10px"
+            }
+          },
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Apparel - All Black</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"index.html\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n<hr>\n</section>",
+          "_anchor": "design-block-6h",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s5Rp1em2Dr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "padding": "0 2rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1rem",
+              "a": {
+                "margin-top": "1rem",
+                "margin-bottom": "0"
+              }
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "2rem"
+            },
+            "p": {
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "1.5rem",
+              "& when not (@showTitle)": {
+                "padding-top": "2rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "padding-bottom": "2rem",
+              "background": "@cardsBg",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "& when not (@showTitle)": {
+                "& when not (@showText)": {
+                  "& when not (@showButtons)": {
+                    "padding-bottom": "0"
+                  }
+                }
+              },
+              "&:hover": {
+                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
+                "transition": "box-shadow 0.3s"
+              }
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/forever-positive-motto-headphones-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Be Kind T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---<br>100% Cotton<br>&nbsp;</p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>\n                            Add To Cart</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/positive-vibes-tshirt-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Positive Vibes T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>\n                            Add To Cart</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/forever-positive-motto-headphones-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Forever Positive Logo T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>\n                            Add To Cart</a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s5RreTOPuo",
+          "_anchor": "features3-6i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">View More Apparel</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s5Ruh0POke",
+          "_anchor": "content8-6l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5535,6 +5653,62 @@
           "_customHTML": "<section class=\"services4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    <!---->\n    <mbr-parameters>\n        <!---->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <!---->\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"50\" max=\"100\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Cost\" name=\"showCost\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!---->\n        <input type=\"checkbox\" title=\"Transparent Card\" name=\"transparentCard\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\" condition=\"!transparentCard\">\n        <input type=\"color\" title=\"Cards Border\" name=\"colorBorder\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!---->\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n            <!--Card-1-->\n            <div class=\"card p-3 col-12\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/poster1-691x926.png\" alt=\"Mobirise\" title>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>*LIMITED EDITION*\n</b><div>Moon View + Forever Positive™ &nbsp;Poster.</div></h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><br>Forever Positive™ has partnered with EDM Artist Galaxia. We both spread positivity and joy amongst all platforms for music and podcasts.\n<br><br>*Listed price does not contain shipping*<br>------------------------------\n<br>✔️This item comes with a Free Galaxia Sticker!</p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">$9.99-$14.99&nbsp;</p>\n                                    <!--Btn-->\n                                  <center>\n                                 <form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"UUSTYWHFYYUJG\">\n<table>\n<tbody><tr><td><input type=\"hidden\" name=\"on0\" value=\"Versions:\">Versions:</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"Original\">Original $9.99 USD</option>\n\t<option value=\"Autographed\">Autographed $14.99 USD</option>\n</select> </td></tr>\n</tbody></table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\">\n<img alt border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n</form>\n\n\n                                  </center>\n\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-2-->\n            <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > '1'\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"../_images/product1.jpg\" alt=\"Mobirise\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        Watch Special\n                                    </h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur\n                                        tempora totam voluptas voluptatem voluptatibus.\n                                    </p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">\n                                        $990\n                                    </p>\n                                    <!--Btn-->\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-3-->\n            <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > '2'\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"../_images/product1.jpg\" alt=\"Mobirise\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        Watch Special\n                                    </h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur\n                                        tempora totam voluptas voluptatem voluptatibus.\n                                    </p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">\n                                        $990\n                                    </p>\n                                    <!--Btn-->\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rWDQpXTWik",
           "_anchor": "services4-4r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"94\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"71\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-6o",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s5RILAfill",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5795,6 +5969,92 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'video')": {},
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".banner-heading .cont": {
+              "color": "#fff ",
+              "font-size": "47px",
+              "font-weight": "500",
+              "text-decoration": "none",
+              "display": "block"
+            },
+            ".banner-heading P": {
+              "color": "#fff",
+              "padding-bottom": "20px",
+              "font-size": "19px",
+              "font-weight": "400"
+            },
+            ".banner-heading span p": {
+              "color": "#cd0e00"
+            },
+            ".btn": {
+              "display": "inline-block",
+              "background-color": "#ff7200",
+              "color": "#fff",
+              "font-weight": "400",
+              "text-align": "center",
+              "white-space": "nowrap",
+              "vertical-align": "middle",
+              "-webkit-user-select": "none",
+              "-moz-user-select": "none",
+              "-ms-user-select": "none",
+              "user-select": "none",
+              "border": "1px solid #ff7200",
+              "padding": ".375rem .75rem",
+              "font-size": "1rem",
+              "line-height": "1.5",
+              "border-radius": ".25rem",
+              "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section typewriter_heading witsec-draft-mode\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"12\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/SINGA/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-15_230636/assets/images/mbr-1920x1279.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n <div class=\"banner-sektion banner-overlay\" id=\"home\">\n    <div class=\"container text-left\">\n        <div class=\"col-md-12 col-xs-12\">\n            <div class=\"banner-heading \">\n                <div class=\"cont\"><span> \nWelcome To Our Merch Store!<span><br><span class=\"typewrite text-primary\" data-period=\"2000\" data-type=\"[ &quot;Be Strong .&quot;, &quot;Be Positive.&quot;, &quot;Be You!&quot;, ]\">\n                    <span class=\"wrap\"></span></span></span></span></div>\n                <p>Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!</p>\n                <button type=\"button\" class=\"btn btn-primary site-btn\">ABOUT US</button>\n            </div>\n        </div>\n    </div>    \n\n</div>\n  <script>\n    //made by vipul mirajkar thevipulm.appspot.com\nvar TxtType = function(el, toRotate, period) {\n        this.toRotate = toRotate;\n        this.el = el;\n        this.loopNum = 0;\n        this.period = parseInt(period, 10) || 2000;\n        this.txt = '';\n        this.tick();\n        this.isDeleting = false;\n    };\n\n    TxtType.prototype.tick = function() {\n        var i = this.loopNum % this.toRotate.length;\n        var fullTxt = this.toRotate[i];\n\n        if (this.isDeleting) {\n        this.txt = fullTxt.substring(0, this.txt.length - 1);\n        } else {\n        this.txt = fullTxt.substring(0, this.txt.length + 1);\n        }\n\n        this.el.innerHTML = '<span class=\"wrap\">'+this.txt+'</span>';\n\n        var that = this;\n        var delta = 200 - Math.random() * 100;\n\n        if (this.isDeleting) { delta /= 2; }\n\n        if (!this.isDeleting && this.txt === fullTxt) {\n        delta = this.period;\n        this.isDeleting = true;\n        } else if (this.isDeleting && this.txt === '') {\n        this.isDeleting = false;\n        this.loopNum++;\n        delta = 500;\n        }\n\n        setTimeout(function() {\n        that.tick();\n        }, delta);\n    };\n\n    window.onload = function() {\n        var elements = document.getElementsByClassName('typewrite');\n        for (var i=0; i<elements.length; i++) {\n            var toRotate = elements[i].getAttribute('data-type');\n            var period = elements[i].getAttribute('data-period');\n            if (toRotate) {\n              new TxtType(elements[i], JSON.parse(toRotate), period);\n            }\n        }\n        // INJECT CSS\n        var css = document.createElement(\"style\");\n        css.type = \"text/css\";\n        css.innerHTML = \".typewrite > .wrap { border-right: 0.08em solid #fff}\";\n        document.body.appendChild(css);\n    };\n\n    </script>\n  \n<style class=\"witsec-draft-mode-style\">.witsec-draft-mode { border: 3px dashed red; }</style></section>",
+          "_cid": "DqTDjATiXl",
+          "_anchor": "design-block-DqTDjATiXl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgcolor",
+            ".show": {
+              "visibility": "visible"
+            },
+            "& when not (@preview)": {
+              "iframe": {
+                "visibility": "hidden"
+              }
+            },
+            ".hide": {
+              "visibility": "hidden"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1080\">\n<input type=\"text\" title=\"URL\" name=\"iframeSrc\" value=\"https://www.foreverpositivepodcast.com/balm\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"7\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ffffff\" selected>\n</mbr-parameters>\n\n<div style=\"position: relative; overflow: hidden; padding-top:calc( {{height}} / {{width}} * 100%);\">\n<img mbr-class=\"{'hide': isPublish}\" src=\"https://res.cloudinary.com/ezenwa/image/upload/v1590745237/test-bars_yednyc.svg\" style=\"position:absolute; top:0; left:0; width:100%; height:100%; border:0;\">\n<iframe mbr-class=\"{'show': isPublish}\" allowfullscreen=\"yes\" style=\"position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" src=\"{{iframeSrc}}\"></iframe>\n</div>\n\n</section>",
+          "_cid": "0UUtBMuGlr",
+          "_anchor": "design-block-0UUtBMuGlr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -5802,7 +6062,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Survey",
-        "order": 17
+        "order": 19
       },
       "components": [
         {
@@ -6340,7 +6600,7 @@
       "settings": {
         "meta_descr": "",
         "title": "cancel",
-        "order": 13
+        "order": 15
       },
       "components": [
         {
@@ -6372,7 +6632,7 @@
       "settings": {
         "meta_descr": "",
         "title": "success",
-        "order": 14
+        "order": 16
       },
       "components": [
         {
@@ -6409,7 +6669,7 @@
       "settings": {
         "meta_descr": "Forever Positive has partnered with EDM Artist Galaxia. We both spread positvity and joy amognst all platforms for music and podcasts.",
         "title": "Galaxia",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -7307,7 +7567,7 @@
       "settings": {
         "meta_descr": "The page you're trying to access is NOT available. please try again later.\n\n",
         "title": "404 Error",
-        "order": 18
+        "order": 20
       },
       "components": [
         {
@@ -7415,7 +7675,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Activation",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -7453,7 +7713,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Premium Hub",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -8424,7 +8684,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Premium: Make An Account",
-        "order": 3
+        "order": 5
       },
       "components": []
     },
@@ -8432,7 +8692,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Premium Sign in",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -8475,7 +8735,7 @@
       "settings": {
         "meta_descr": "This page shows the pricing of a Premium Account!",
         "title": "Premium Pricing",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -9366,7 +9626,7 @@
       "settings": {
         "meta_descr": "",
         "title": "TRKG 000007",
-        "order": 9
+        "order": 11
       },
       "components": [
         {
@@ -9490,6 +9750,166 @@
           ],
           "_name": "witsec-custom-html-block",
           "_anchor": "witsec-custom-html-block-6g"
+        }
+      ]
+    },
+    "storeapparel.html": {
+      "settings": {
+        "meta_descr": "Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!",
+        "title": "Store/apparel",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".cont": {
+              "background-color": "@bgColor"
+            },
+            ".card": {
+              "background-color": "@cbgColor",
+              "color": "@ctbgColor",
+              "padding": "5px",
+              "padding-bottom": "5px"
+            },
+            ".slidehead": {
+              "font-size": "25px"
+            },
+            ".hw2": {
+              "width": "70%",
+              "max-width": "50px"
+            },
+            ".vatshipblock": {
+              "display": "block"
+            },
+            ".vatshipnone": {
+              "display": "none"
+            },
+            ".btn": {
+              "font-size": "10px"
+            },
+            "H3": {
+              "color": "#232323"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section mbr-id=\"_anchor_product_slide\" class=\"mbr-section product_slide content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <select inline title=\"Toggle Config\" name=\"addvatshipping2\">\n            <option value=\"1\">Show</option>\n            <option value=\"2\" selected>Hide</option>\n        </select>\n      <input type=\"range\" inline title=\"Slider No\" name=\"productno\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n      <input inline type=\"text\" title=\"Currency Symbol\" name=\"CurrencyIcon\" value=\"$\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n      <input type=\"color\" title=\"Card Bg Color\" name=\"cbgColor\" value=\"#149dcc\">\n      <input type=\"color\" title=\"Card Text Color\" name=\"ctbgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <section class=\"cont pt-5 pb-5\">\n  <div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-4\">\n            <span class=\"mb-0 slidehead\">Apparel - All Black&nbsp;</span>\n        </div>\n        <div class=\"col-8 text-right\">\n            <a class=\"btn btn-sm btn-primary mb-3 mr-0\" href=\"#carouselExampleIndicators2\" role=\"button\" data-slide=\"prev\">\n                <i class=\"fa fa-arrow-left fas\"></i>\n            </a>\n            <a class=\"btn btn-sm btn-primary mb-3 mr-0\" href=\"#carouselExampleIndicators2\" role=\"button\" data-slide=\"next\">\n                <i class=\"fa fa-arrow-right fas\"></i>\n            </a>\n        </div>\n        <div class=\"col-12\">\n            <div id=\"carouselExampleIndicators2\" class=\"carousel slide\" data-ride=\"carousel\">\n                <div class=\"carousel-inner\">\n                    <div class=\"carousel-item active\" mbr-if=\"productno > 0\">\n                        <div class=\"row\">\n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"@PROJECT_PATH@/assets/images/forever-positive-motto-headphones-560x747.png\" title>\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\" mbr-article>Forever Positive Logo T-Shirt</h4>\n                                        <p class=\"card-text\">--- \n<br>100% Cotton&nbsp;</p>\n                             </div> \n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0011</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>       \n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>20.00</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                              \n                                </div>\n                    \n                            </div>\n                          <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"@PROJECT_PATH@/assets/images/positive-vibes-tshirt-560x747.png\" title>\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">Positive Vibes T-Shirt</h4>\n                                        <p class=\"card-text\">--- \n<br>100% Cotton&nbsp;</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0012</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>20.00</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n                            \n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"@PROJECT_PATH@/assets/images/be-kind-tshirt-560x747.png\" title>\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">Be Kind T-Shirt<br><br></h4>\n                                        <p class=\"card-text\">--- \n<br>100% Cotton&nbsp;</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0013</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>20.00</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                  <div class=\"carousel-item\" mbr-if=\"productno > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\" mbr-article>Dell Xtreame 2</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n                                    </div> \n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0014</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,400</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                              \n                                </div>\n                    \n                            </div>\n                          <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/yugQN69.jpg\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">HP Pro 2</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0015</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,500</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n                            \n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">Lenovo true 2</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0016</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,600</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                  \n                  <div class=\"carousel-item\" mbr-if=\"productno > 2\">\n                       <div class=\"row\">\n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\" mbr-article>Dell Xtreame 3</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n                                    </div> \n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0017</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,700</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                              \n                                </div>\n                    \n                            </div>\n                          <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/yugQN69.jpg\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">HP Pro 3</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0018</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,800</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n                            \n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">Lenovo true 3</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0019</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,900</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                  \n                  <div class=\"carousel-item\" mbr-if=\"productno > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\" mbr-article>Dell Xtreame 4</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n                                    </div> \n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0018</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,800</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                              \n                                </div>\n                    \n                            </div>\n                          <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/yugQN69.jpg\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">HP Pro 4</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0019</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>21,900</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n                            \n                            <div class=\"col-md-4 mb-3\">\n                                <div class=\"card cart_item\">\n                                    <img class=\"img-fluid\" alt=\"100%x280\" src=\"https://i.imgur.com/JOpmFkw.png\">\n                                    <div class=\"card-body\">\n                                        <h4 class=\"card-title product_name\">Lenovo true 4</h4>\n                                        <p class=\"card-text\">If you want a different shop interface design, contact Mr Singa4real on +2349066849761</p>\n\n                                    </div>\n                                  <div class=\"group\" mbr-class=\"{'vatshipblock': addvatshipping2 == 1, 'vatshipnone': addvatshipping2 == 2}\">\n                             <div class=\"d-inline\"><strong>ID:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_id\" mbr-text>0020</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Vat:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_vat\" mbr-text>0</span></strong></div>\n                            <div class=\"d-inline\">&nbsp;&nbsp;<strong>Shipping:</strong>&nbsp;&nbsp;</div>\n                            <div class=\"d-inline\"><strong><span class=\"product_shipping\" mbr-text>0</span></strong></div>\n                          </div>\n                                  <div class=\"container row\">\n                                <div class=\"col-xs-12 col-md-12\">\n                                  <div class=\"row\">\n                                    <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 lead\"><b><span html=\"{{CurrencyIcon}}\"></span><span class=\"product_price\" mbr-text>22,000</span></b></div> <div class=\"col-xs-6 col-md-6  col-lg-6 col-6 text-right\"><span class=\"hw\"><b>QTY</b>&nbsp;<input type=\"number\" class=\"iqty hw2\" value=\"1\" min=\"1\"></span></div>\n                                    </div>\n                                </div>\n                              <div mbr-buttons class=\"col-xs-12 col-md-12 text-center mbr-section-btn\"><a class=\"btn btn-sm add-to-cart btn-white\" href=\"#add\" data-app-placeholder=\"Type Text\">Add to cart</a>\n                          <a href=\"details.html\" class=\"btn btn-sm btn-white-outline\" data-app-placeholder=\"Type Text\">Details</a></div>\n                            </div>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                  \n                  \n\n                  \n                  \n                  \n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n</section>\n</section>",
+          "_cid": "vSFPbzJ3yI",
+          "_anchor": "design-block-vSFPbzJ3yI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "padding": "0 2rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1rem",
+              "a": {
+                "margin-top": "1rem",
+                "margin-bottom": "0"
+              }
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "2rem"
+            },
+            "p": {
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "1.5rem",
+              "& when not (@showTitle)": {
+                "padding-top": "2rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "padding-bottom": "2rem",
+              "background": "@cardsBg",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "& when not (@showTitle)": {
+                "& when not (@showText)": {
+                  "& when not (@showButtons)": {
+                    "padding-bottom": "0"
+                  }
+                }
+              },
+              "&:hover": {
+                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
+                "transition": "box-shadow 0.3s"
+              }
+            }
+          },
+          "_name": "features3",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/forever-positive-motto-headphones-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Be Kind T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---<br>100% Cotton<br>&nbsp;</p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-success-outline\" data-app-placeholder=\"Type Text\">\n                            Learn More\n                        </a></div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/positive-vibes-tshirt-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Positive Vibes T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/forever-positive-motto-headphones-556x741.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Forever Positive Logo T-Shirt</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">---\n<br>100% Cotton&nbsp;<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a href=\"https://mobirise.co\" class=\"btn btn-primary\">\n                            Learn More\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features3-6p",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s5RJW9uUs1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "balm.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "lip balm",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            }
+          },
+          "_name": "header16",
+          "_customHTML": "<section class=\"services4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    <!---->\n    <mbr-parameters>\n        <!---->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <!---->\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"50\" max=\"100\" step=\"5\" value=\"65\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Cost\" name=\"showCost\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!---->\n        <input type=\"checkbox\" title=\"Transparent Card\" name=\"transparentCard\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#ffffff\" condition=\"!transparentCard\">\n        <input type=\"color\" title=\"Cards Border\" name=\"colorBorder\" value=\"#efefef\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cebfaf\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!---->\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n            <!--Card-1-->\n            <div class=\"card p-3 col-12\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/img-3791-376x669.jpg\" alt=\"Mobirise\" title>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Lip Balm</h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">This Lip Balm/Chapstick is a homemade recipe. This will relax and moisturize your dry lips. With intense flavor and scent. \n<br>\n<br><b>Two Flavors:</b><br>Cherry 🍒<br>Peppermint<br><br><b>This Product Is:\n</b><br>Gluten Free\n<br>BPA Free\n<br>Made in the U.S.A\n<br><br>\n*Listed price does not contain shipping*<br>------------------------------ \n<br>✔️This item comes with a Free Sticker!</p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">\n                                        $3.50</p>\n                                    <!--Btn-->\n                                  <center>\n                                <form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"4JR4AUGRB3C3W\">\n<table>\n<tbody><tr><td><input type=\"hidden\" name=\"on0\" value=\"Flavors\">Flavors</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"Cherry\">Cherry $3.50 USD</option>\n\t<option value=\"Peppermint\">Peppermint $3.50 USD</option>\n</select> </td></tr>\n</tbody></table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\">\n<img alt border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n</form>\n\n\n                                  </center>\n\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-2-->\n            <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > '1'\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"../_images/product1.jpg\" alt=\"Mobirise\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        Watch Special\n                                    </h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur\n                                        tempora totam voluptas voluptatem voluptatibus.\n                                    </p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">\n                                        $990\n                                    </p>\n                                    <!--Btn-->\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-3-->\n            <div class=\"card p-3 col-12\" mbr-if=\"cardsAmount > '2'\">\n                <div class=\"card-wrapper media-container-row media-container-row\">\n                    <div class=\"card-box\">\n                        <div class=\"row\">\n                            <div class=\"col-12 col-md-12 col-lg-4\">\n                                <div class=\"wrapper\">\n                                    <!--Image-->\n                                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                                        <img src=\"../_images/product1.jpg\" alt=\"Mobirise\">\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-7 col-lg-4\">\n                                <div class=\"wrapper col-left\">\n                                    <!--Title-->\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        Watch Special\n                                    </h4>\n                                    <!--Subtitle-->\n                                    <p class=\"mbr-text mbr-fonts-style pt-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur\n                                        tempora totam voluptas voluptatem voluptatibus.\n                                    </p>\n                                </div>\n                            </div>\n                            <div class=\"col-12 col-md-5 col-lg-4\">\n                                <div class=\"wrapper border_wrapper\">\n                                    <!--Cost-->\n                                    <p class=\"mbr-text mbr-fonts-style col-right mbr-black align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showCost\" data-app-selector=\".col-right\">\n                                        $990\n                                    </p>\n                                    <!--Btn-->\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn col-right align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                                        <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline m-0\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s5Ukz4Lv0Z",
+          "_anchor": "header16-6r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
