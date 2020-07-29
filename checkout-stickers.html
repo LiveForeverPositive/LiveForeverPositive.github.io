@@ -7,9 +7,9 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/favicon-16x16.png" type="image/x-icon">
-  <meta name="description" content="">
+  <meta name="description" content="Order Here!">
   
-  <title>Survey</title>
+  <title>Our Sticker Collection - $5.00</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -31,7 +31,7 @@
 <section id='top-1'></section>
 
 
-  <section class="menu cid-rRfVDt4orS" once="menu" id="menu2-33">
+  <section class="menu cid-s5XTmrhHBK" once="menu" id="menu2-79">
 
     
 
@@ -66,18 +66,73 @@
     </nav>
 </section>
 
-<section class="mbr-section" id="witsec-custom-html-block-34" data-rv-view="1051" style="background-color: rgb(255, 255, 255);">
- 
- <div class="witsec-custom-html-container elements-content" style="padding-top: 8rem; padding-bottom: 0rem;">
-     
-    <div class="mbr-section__container block" style="width: 100%;"><center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPIng6qwovSOPSXq6QLD407WHiJThbz19EwFyz-mypWnjAnQ/viewform?embedded=true" width="640" height="1284" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</center></div>
- </div>
+<section class="services2 cid-s5XSITMy3N" id="services2-78">
+    <!---->
+    
+    <!---->
+    <!--Overlay-->
+    
+    <!--Container-->
+    <div class="container">
+        <div class="col-md-12">
+            <div class="media-container-row">
+                <div class="mbr-figure" style="width: 40%;">
+                    <img src="assets/images/sticksers-521x378.png" alt="" title="">
+                </div>
+                <div class="align-left aside-content">
+                    <h2 class="mbr-title pt-2 mbr-fonts-style display-2">Forever Positive™  Motivational Stickers</h2>
+                    <div class="mbr-section-text">
+                        <p class="mbr-text text1 pt-2 mbr-light mbr-fonts-style display-7"><br>Forever Positive™ stickers have many motivational sayings on them!
+<br>
+<br>*Listed price does not contain shipping*
+<br>------------------------------ 
+<br><strong>Warning</strong>: Do not get this sticker wet, or rubbed against hard surfaces, as the ink may wear off!
+<br>...
+<br>Stickers stick to any surface!</p>
+                        <p class="mbr-text text2 pt-4 mbr-light mbr-fonts-style display-2">
+                            $5.00<br></p>
+                    </div>
+                                   <center>
+                         <div id="stickers"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AW3tXs_r7JqPrfpxx-KunjnyT5IudVgrwTZ4XgEkkT8qQ5XWloLxaca6xiQtPcNiJ7i4qNaxQfy1szCJ&amp;currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '5.00'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#stickers');
+</script>
 
+
+                                  </center>
+
+                    <!--Btn-->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="cid-rSkPh2ZZiI mbr-reveal" id="footer5-35">
+<section class="cid-s5XTpvLiyD mbr-reveal" id="footer5-7a">
 
     
 
