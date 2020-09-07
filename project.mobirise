@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Forever Positive (REAL NEW)",
-    "currentPage": "store.html",
+    "currentPage": "page27.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -72,7 +72,7 @@
         "file": "@PROJECT_PATH@/fonts/Gagalin-Regular/font.ttf"
       }
     ],
-    "uniqCompNum": 290,
+    "uniqCompNum": 292,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-16x16.png",
@@ -798,7 +798,7 @@
       "settings": {
         "meta_descr": "Learn About Who Forever Positive Is.",
         "title": "About Us",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -1509,7 +1509,7 @@
       "settings": {
         "meta_descr": "Listen To Our Podcast.",
         "title": "Podcasts",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -2272,7 +2272,7 @@
       "settings": {
         "meta_descr": "Listen To Us Wherever You Get Your Podcasts.",
         "title": "Platforms",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -2985,7 +2985,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Contact Us",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -3500,7 +3500,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "newsletter",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -4100,7 +4100,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Apply To Be A Special Guest",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -4664,7 +4664,7 @@
       "settings": {
         "meta_descr": "Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!",
         "title": "Store",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -5723,7 +5723,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Survey",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -6261,7 +6261,7 @@
       "settings": {
         "meta_descr": "",
         "title": "cancel",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -6293,7 +6293,7 @@
       "settings": {
         "meta_descr": "",
         "title": "success",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -6330,7 +6330,7 @@
       "settings": {
         "meta_descr": "Forever Positive has partnered with EDM Artist Galaxia. We both spread positvity and joy amognst all platforms for music and podcasts.",
         "title": "Galaxia",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -7228,7 +7228,7 @@
       "settings": {
         "meta_descr": "The page you're trying to access is NOT available. please try again later.\n\n",
         "title": "404 Error",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -7336,7 +7336,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Activation",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -7374,7 +7374,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Premium Hub",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -8345,7 +8345,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Premium: Make An Account",
-        "order": 11
+        "order": 12
       },
       "components": []
     },
@@ -8353,7 +8353,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Premium Sign in",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -8396,7 +8396,7 @@
       "settings": {
         "meta_descr": "This page shows the pricing of a Premium Account!",
         "title": "Premium Pricing",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -9287,7 +9287,7 @@
       "settings": {
         "meta_descr": "",
         "title": "TRKG 000007",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -9418,7 +9418,7 @@
       "settings": {
         "meta_descr": "Forever Positive™ has an exclusive merchandise store. Do you want to support your favorite podcast? Purchasing from our store allows us to keep making content for thousands to enjoy!",
         "title": "Store/apparel",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -9543,7 +9543,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Our Signature Lip Balm - $3.50",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -10166,7 +10166,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Galaxia Poster - $10.00",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -10791,7 +10791,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Forever Positive poster - $10.00",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -11416,7 +11416,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Our Sticker Collection - $5.00",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -12041,7 +12041,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Be Kind T-Shirt - $20.00",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -12584,7 +12584,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Positive Vibes T-Shirt - $20.00",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -13127,7 +13127,7 @@
       "settings": {
         "meta_descr": "Order Here!",
         "title": "Forever Positive T-Shirt - $20.00",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -13665,6 +13665,14 @@
           "_params": {}
         }
       ]
+    },
+    "page27.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "ads",
+        "order": 1
+      },
+      "components": []
     }
   }
 }
